@@ -30,14 +30,9 @@ clrbtn:root {
 }
 
 body {
-    margin: 50pz;
+    margin: 50px;
     line-height: inherit;
     background-color: #ffffff;   
-}
-
-h1 {
-  margin: 15px 0 20px;
-  
 }
 
 .chkbtn {
