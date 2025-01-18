@@ -1,0 +1,110 @@
+html {
+    line-height: 1.5;
+    margin: 50px;
+    -webkit-text-size-adjust: 100%;
+    -moz-tab-size: 4;
+    tab-size: 4;
+    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    font-feature-settings: normal;
+    font-variation-settings: normal;
+}
+
+:after, :before {
+    box-sizing: border-box;
+    border: 0 solid;
+}
+
+input{
+    border-color: rgb(82, 0, 255);
+    border-style: solid;
+border-width: 1px;
+color: rgb(82,0,255)
+}
+chkbtn:root {
+    network-color: #5200ff;
+    eyebrow-font-color: #ffffff;
+}
+clrbtn:root {
+    network-color: #ffffff;
+    eyebrow-font-color: #5200ff;
+}
+
+body {
+    margin: 50pz;
+    line-height: inherit;
+    background-color: #ffffff;   
+}
+
+h1 {
+  margin: 15px 0 20px;
+  color: rgb(82, 0, 255);
+  
+}
+
+.chkbtn {
+color: rgb(82, 0, 255);
+background-attachment: scroll;
+background-clip: border-box;
+background-color: rgb(255,255,255);
+background-image: none;
+background-origin: padding-box;
+background-position-x: 0%;
+background-position-y: 0%;
+background-repeat: repeat;
+background-size: auto;
+border-bottom-color: rgb(82, 0, 255);
+border-bottom-style: solid;
+border-bottom-width: 0.666667px;
+border-image-outset: 0;
+border-image-repeat: stretch;
+border-image-slice: 100%;
+border-image-source: none;
+border-image-width: 1;
+border-left-color: rgb(82, 0, 255);
+border-left-style: solid;
+border-left-width: 0.666667px;
+border-right-color: rgb(82, 0, 255);
+border-right-style: solid;
+border-right-width: 0.666667px;
+border-top-color: rgb(82, 0, 255);
+border-top-style: solid;
+border-top-width: 0.666667px;
+box-shadow: rgb(255,255,255) 0px 0px 0px 0px, rgb(255,255,255) 0px 0px 0px 0px, rgb(82, 0, 255) 3px 4px 0px 0px;
+}
+.clrbtn {
+color: rgb(82, 0, 255);
+background-attachment: scroll;
+background-clip: border-box;
+background-color: rgba(82, 0, 255, 20%);
+background-image: none;
+background-origin: padding-box;
+background-position-x: 0%;
+background-position-y: 0%;
+background-repeat: repeat;
+background-size: auto;
+border-bottom-color: rgb(82, 0, 255);
+border-bottom-style: solid;
+border-bottom-width: 0.666667px;
+border-image-outset: 0;
+border-image-repeat: stretch;
+border-image-slice: 100%;
+border-image-source: none;
+border-image-width: 1;
+border-left-color: rgb(82, 0, 255);
+border-left-style: solid;
+border-left-width: 0.666667px;
+border-right-color: rgb(82, 0, 255);
+border-right-style: solid;
+border-right-width: 0.666667px;
+border-top-color: rgb(82, 0, 255);
+border-top-style: solid;
+border-top-width: 0.666667px;
+box-shadow: rgb(255,255,255) 0px 0px 0px 0px, rgb(255,255,255) 0px 0px 0px 0px, rgb(82, 0, 255) 3px 4px 0px 0px;
+}
+.chkbtn:hover, .clrbtn:hover {
+    --tw-shadow:  5px 6px;
+    --tw-shadow-colored:  5px 6px var(--tw-shadow-color);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+    
+.clrbtn:hover {}
